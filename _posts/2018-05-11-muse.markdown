@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Muse"
+date:   2018-05-11 19:48:45 -0400
+---
+I finally created a personal website. I followed Programming Historian's lesson, [Building a static website with Jekyll and Github Pages](https://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages#on-windows-). The tutorial was clear and concise, thorough yet simple. It was the perfect starting point for someone like me who had no prior web development experience.
+
+
+I aim to keep this site up to date by adding new content and more character as I continue Googling how to code stuff.
+
+
+### Tunes
+
+
+I'm bouncing between Brian Eno's [Music for Installations](https://open.spotify.com/album/3z6IlwN9dnSMNXDI2nMbfq?si=0ILGkymATsivdlwVXQrNnQ), DJ Koze's [Knock Knock](https://open.spotify.com/album/0sT4nyNxsvGNQr1O8OR83O?si=k3Idwjv1T7y5HboIGneUXA), a cheesy playlist I compiled of Prince's music taste, and autechre's glorious NTS Sessions 1-4.
+
+
+### Life
+
+
+First ever Texas vacation was lovely - filled with delicious eats, kind souls, and cool art in hellishly hot air. Definitely want to explore more of Dallas and Austin eventually.
+
+
+![image-title-here]({{ "https://dl2.pushbulletusercontent.com/Ph0trBMEMfb7Jb0nWo4hyNJYHcoIQWUS/20180506_183745_1525749749671.png" | absolute_url }})
+
+
+Interesting that life seems to repeat its patterns in subtle ways and still manage to feel unnervingly new. Life's big pictures are just a backdrop.
+
+
+![image-title-here]({{ "https://dl2.pushbulletusercontent.com/RlQHGiwBkKsLMFz5FIJhzKZXePRA3Okz/20180509_204410_1525924188546_1525929449589.png" | absolute_url }})
