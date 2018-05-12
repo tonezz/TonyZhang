@@ -1,5 +1,5 @@
 ---
 title: tonezz
 redirect_to:
-  - http://tonezz.github.io
+  - https://tonezz.github.io/home/
 ---
