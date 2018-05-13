@@ -1,20 +1,9 @@
-GEM
-  remote: https://rubygems.org/
+GIT
+  remote: https://github.com/ashmaroli/jekyll.git
+  revision: 0a87e14ef5d99a75d4f1e28ec86715134f0a32dd
+  branch: stop-layouts-cwd
   specs:
-    addressable (2.5.2)
-      public_suffix (>= 2.0.2, < 4.0)
-    colorator (1.1.0)
-    concurrent-ruby (1.0.5)
-    em-websocket (0.5.1)
-      eventmachine (>= 0.12.9)
-      http_parser.rb (~> 0.6.0)
-    eventmachine (1.2.6-x64-mingw32)
-    ffi (1.9.23-x64-mingw32)
-    forwardable-extended (2.6.0)
-    http_parser.rb (0.6.0)
-    i18n (0.9.5)
-      concurrent-ruby (~> 1.0)
-    jekyll (3.8.1)
+    jekyll (3.7.2)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
@@ -27,6 +16,23 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.5.2)
+      public_suffix (>= 2.0.2, < 4.0)
+    colorator (1.1.0)
+    concurrent-ruby (1.0.5)
+    em-websocket (0.5.1)
+      eventmachine (>= 0.12.9)
+      http_parser.rb (~> 0.6.0)
+    eventmachine (1.2.7-x64-mingw32)
+    ffi (1.9.23-x64-mingw32)
+    forwardable-extended (2.6.0)
+    http_parser.rb (0.6.0)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
     jekyll-feed (0.9.3)
       jekyll (~> 3.3)
     jekyll-redirect-from (0.13.0)
@@ -73,10 +79,10 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  jekyll (~> 3.8.1)
+  jekyll!
   jekyll-feed (~> 0.6)
   jekyll-redirect-from
-  minima (~> 2.0)
+  minima
   tzinfo-data
   wdm (~> 0.1.0)
 
