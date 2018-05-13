@@ -15,6 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 baseurl: "/TonyZhang" # the subpath of your site, e.g. /blog
 url: "localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
+linkedin_username: tony-zhang-117116114
 author:
   name: "Tony Zhang"
   email: "txzhang92@gmail.com"

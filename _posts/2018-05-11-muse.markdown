@@ -3,7 +3,7 @@ layout: post
 title:  "Muse"
 date:   2018-05-11 19:48:45 -0400
 ---
-I finally created a personal website. I followed Programming Historian's lesson, [Building a static website with Jekyll and Github Pages](https://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages#on-windows-). The tutorial was clear and concise, thorough yet simple. It was the perfect starting point for someone like me who had no prior web development experience.
+I finally created a personal website. I followed Programming Historian's lesson, [Building a static website with Jekyll and Github Pages](https://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages#on-windows-). The tutorial was concise and easy to follow. It was the perfect starting point for someone like me who had no prior web development experience.
 
 
 I aim to keep this site up to date by adding new content and more character as I continue Googling how to code stuff.
@@ -18,13 +18,13 @@ I'm bouncing between Brian Eno's [Music for Installations](https://open.spotify.
 ### Life
 
 
-First ever Texas vacation was lovely - filled with delicious eats, kind souls, and cool art in hellishly hot air. Definitely want to explore more of Dallas and Austin eventually.
+First time in Texas was lovely - filled with delicious eats, kind souls, and cool art in hellishly hot air. Would love to explore more of Dallas and Austin eventually.
 
 
-![image-title-here](../../../images/dallas.png)
+![](../../../images/dallas.png)
 
 
-Interesting that life seems to repeat its patterns in subtle ways and still manage to feel unnervingly new. Life's big pictures are just a backdrop.
+Its peculiar that life has patterns in subtle ways and still manages to feel unnervingly new. Life's big pictures are a constant backdrop to every day.
 
 
-![image-title-here](../../../images/charles.png)
+![](../../../images/charles.png)
