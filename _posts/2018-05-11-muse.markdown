@@ -21,10 +21,10 @@ I'm bouncing between Brian Eno's [Music for Installations](https://open.spotify.
 First ever Texas vacation was lovely - filled with delicious eats, kind souls, and cool art in hellishly hot air. Definitely want to explore more of Dallas and Austin eventually.
 
 
-![image-title-here]({{ "https://dl2.pushbulletusercontent.com/Ph0trBMEMfb7Jb0nWo4hyNJYHcoIQWUS/20180506_183745_1525749749671.png" | absolute_url }})
+![image-title-here](../../../images/dallas.png)
 
 
 Interesting that life seems to repeat its patterns in subtle ways and still manage to feel unnervingly new. Life's big pictures are just a backdrop.
 
 
-![image-title-here]({{ "https://dl2.pushbulletusercontent.com/RlQHGiwBkKsLMFz5FIJhzKZXePRA3Okz/20180509_204410_1525924188546_1525929449589.png" | absolute_url }})
+![image-title-here](../../../images/charles.png)
