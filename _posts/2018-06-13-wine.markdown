@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "More wine."
+date:   2018-06-11
+---
+My first Python script uses the BeautifulSoup package to extract HTML data from TotalWine.com.
+
+# [total-wine-scraper](https://github.com/tonezz/total-wine-scraper)
+
+The first revision collects the data from all red wines available on the online store that contains all the requested HTML data elements:
+
+
+* Wine name                 :wine_glass:
+* Price                     :money_with_wings:
+* Country/state             :earth_americas:
+* Region                    :european_castle:
+* Product type (red/white)  :white_flower:
+* Varietal type             :question:
+* Description               :information_source:
+
+
+Some elements of the data request are hardcoded in the first revision of the script, e.g. type of wine (red/white) and price of wine, that I have plans to make user-configurable from the command line. There are also two intermittent issues; timing out when requesting URLs and running into MemoryError when collecting on >50 pages or more.
+
+
+The script was able to collect the data of close to 1,600 different red wine products off of the TotalWine website. I plan on using this data to explore more capabilities in Python. :snake:
+
+
+Overall, it was a great introduction to developing with Python, working with Python packages, and website HTML data. The experience was exciting and the lightweight factor was definitely enjoyable.
+
+
+Any feedback would be graciously accepted! :rainbow: :grin:
+
+![](../../../images/wineshot.jpg)
