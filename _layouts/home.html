@@ -3,6 +3,8 @@ layout: default
 ---
 
 <div class="home">
+  {%- include header.html -%}
+
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "What I've been up to recently:" }}</h2>
     <ul class="post-list">
