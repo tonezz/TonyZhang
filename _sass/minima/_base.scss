@@ -4,7 +4,7 @@
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
-  margin: 0;
+  margin: 0px;
   padding: 0;
 }
 
@@ -17,7 +17,7 @@ body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
   //background-color: $background-color;
-  background: $background;
+  //background: $background;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;
@@ -28,7 +28,7 @@ body {
   min-height: 100vh;
   flex-direction: column;
 
-  padding: 60px;
+  padding: 5px 5px 0 15px;
   //margin: 65px;
   //margin-left: 100px;
   //margin-right: 100px;
@@ -84,7 +84,7 @@ figcaption {
  * Lists
  */
 ul, ol {
-  margin-left: $spacing-unit;
+  //margin-left: $spacing-unit;
 }
 
 li {
@@ -109,15 +109,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $brand-color;
-  text-decoration: underline;
+  //color: $brand-color;
+  //text-decoration: underline;
 
   &:visited {
     color: darken($brand-color, 15%);
   }
 
   &:hover {
-    color: $grey-color;
+    //color: $grey-color;
     text-decoration: underline;
   }
 
@@ -129,6 +129,19 @@ a {
     }
   }
 }
+
+/**
+ * Photo section
+ */
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+
 
 
 /**

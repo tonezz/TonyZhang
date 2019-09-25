@@ -18,11 +18,8 @@ layout: default
     </time>
     {%- if page.author -%}
       • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-    {%- endif -%}</p>
-
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
+    {%- endif -%}
+  </p>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

@@ -1,0 +1,26 @@
+I"Z<p>My first Python script uses the BeautifulSoup package to extract HTML data from TotalWine.com.</p>
+
+<h1 id="total-wine-scraper"><a href="https://github.com/tonezz/total-wine-scraper">total-wine-scraper</a></h1>
+
+<p>The first revision collects the data from all red wines available on the online store that contains all the requested HTML data elements:</p>
+
+<ul>
+  <li>Wine name                 :wine_glass:</li>
+  <li>Price                     :money_with_wings:</li>
+  <li>Country/state             :earth_americas:</li>
+  <li>Region                    :european_castle:</li>
+  <li>Product type (red/white)  :white_flower:</li>
+  <li>Varietal type             :question:</li>
+  <li>Description               :information_source:</li>
+</ul>
+
+<p>Some elements of the data request are hardcoded in the first revision of the script, e.g. type of wine (red/white) and price of wine, that I have plans to make user-configurable from the command line. There are also two intermittent issues; timing out when requesting URLs and running into MemoryError when collecting on &gt;50 pages or more.</p>
+
+<p>The script was able to collect the data of close to 1,600 different red wine products off of the TotalWine website. I plan on using this data to explore more capabilities in Python. :snake:</p>
+
+<p>Overall, it was a great introduction to developing with Python, working with Python packages, and website HTML data. The experience was exciting and the lightweight factor was definitely enjoyable.</p>
+
+<p>Any feedback would be graciously accepted! :rainbow: :grin:</p>
+
+<p><img src="../../../images/wineshot.jpg" alt="" /></p>
+:ET

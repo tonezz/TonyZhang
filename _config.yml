@@ -18,7 +18,8 @@ url: "http://tonezz.org" # the base hostname & protocol for your site, e.g. http
 linkedin_username: tony-zhang-117116114
 author:
   name: "Tony Zhang"
-  email: "tonyz@tonezz.org"
+  email: "txzhang92@gmail.com"
+  email-text: "txzhang92 at gmail dot com"
   url: "http://www.tonezz.org/"
 
 # Build settings

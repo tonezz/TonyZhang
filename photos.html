@@ -1,0 +1,33 @@
+---
+layout: photo_layout
+permalink: /photos/
+images:
+  - image_path: /images/photos/brandenburger.jpg
+    title: brandenburger  
+  - image_path: /images/photos/anglicka.jpg
+    title: anglicka
+  - image_path: /images/photos/palmenhaus.jpg
+    title: palmenhaus
+  - image_path: /images/photos/palmenhaus2.jpg
+    title: palmenhaus2
+  - image_path: /images/photos/schonbrunn.jpg
+    title: schonbrunn
+  - image_path: /images/photos/portJefferson.jpg
+    title: portJefferson
+  - image_path: /images/photos/bridgeport.jpg
+    title: bridgeport
+
+
+---
+<ul class="photo-gallery" style="list-style: none;">
+  {% for image in page.images %}
+    <section>
+      <!-- style="width: 1269px; height: auto;"-->
+      <picture style="width: 1269px; height: auto;">
+        <img src="{{ image.image_path }}" alt="{{ image.title}}"/>
+      </picture>
+    </section>
+    
+    <div style="height:169px;"></div>
+  {% endfor %}
+</ul>

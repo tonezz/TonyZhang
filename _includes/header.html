@@ -1,6 +1,6 @@
 <header class="site-header" role="banner">
 
-  <div class="wrapper">
+  <div>
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
 
@@ -17,6 +17,7 @@
 
         <div class="trigger">
           <a class="page-link" href="/">Tony Zhang</a>
+          <a class="page-link" href="/photos/">photos</a>
           <a class="page-link" href="https://github.com/tonezz">github</a>
           <a class="page-link" href="/about/">about</a>
         </div>

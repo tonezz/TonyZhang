@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "More wine."
+title:  "More wine"
 date:   2018-06-11
 ---
 My first Python script uses the BeautifulSoup package to extract HTML data from TotalWine.com.
