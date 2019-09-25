@@ -4,9 +4,17 @@ layout: default
 
 <div class="home">
   {%- include header.html -%}
+  <h2 class="post-list-heading">{{ page.list_title | default: "What I've been up to recently:" }}</h2>
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "What I've been up to recently:" }}</h2>
+  <ul class="post-list">
+    {%- for post in site.posts -%}
+    <div class="writing nu">
+      <div>
+        <div>
+          <a href="{{ post.url | relative_url }}" title=#326>{{ post.title | escape }}</a>
+
+          <!--<h2 class="post-list-heading">{{ page.list_title | default: "What I've been up to recently:" }}</h2>
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
@@ -17,7 +25,14 @@ layout: default
         </h3>
       </li>
       {%- endfor -%}
-    </ul>
+    </ul>-->
+        </div>
+        <div> <a>{{ post.dateModified | escape }}</a></div>
+      </div>
+    </div>
+    {%- endfor -%}
+  </ul>
   {%- endif -%}
+
 
 </div>
