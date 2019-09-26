@@ -2,6 +2,7 @@
 layout: default
 ---
 <!DOCTYPE html>
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 {%- include head.html -%}
 
@@ -14,7 +15,7 @@ layout: default
 
     <main href="mailto:{{ site.author.email }}"><span class="username">{{ site.author.email-text }}</span></main>
 
-    <div style="width: 255px" id="vegankit-embed">
+    <div style="width: 255px; height: 58px" id="vegankit-embed">
       <script>window.vegankit_activist_username = "tonezz";</script>
       <script src="http://cdn.everything.io/vegankit/embed/embed.js"></script>
     </div>
