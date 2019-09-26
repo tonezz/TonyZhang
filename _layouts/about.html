@@ -12,12 +12,12 @@ layout: default
   <div class="post-content">
     {{ content }}
 
-    <main href="mailto:{{ site.author.email }}"><span class="username">Email: {{ site.author.email-text }}</span></main>
+    <main href="mailto:{{ site.author.email }}"><span class="username">{{ site.author.email-text }}</span></main>
 
-    <a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}"><svg class="svg-icon">
+    <!--<a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}"><svg class="svg-icon">
         <use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use>
       </svg>
-    </a>
+    </a>-->
     <div style="width: 255px" id="vegankit-embed">
         <script>window.vegankit_activist_username = "tonezz";</script>
         <script src="http://cdn.everything.io/vegankit/embed/embed.js"></script>
