@@ -45,7 +45,7 @@
   }
 
   .page-link {
-    //color: $brand-color;
+    color: black;
     line-height: $base-line-height;
     text-decoration: none;
     &:visited {
@@ -250,6 +250,7 @@
 .post-link {
   //display: block;
   //color: $brand-color;
+  color: black;
   @include relative-font-size(1);
   text-decoration: none
 }
