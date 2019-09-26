@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="home">
-  {%- include header.html -%}
+  {%- include Tony-Zhang-header.html -%}
   <h2 class="post-list-heading">{{ page.list_title | default: "What I've been up to recently:" }}</h2>
 
   {%- if site.posts.size > 0 -%}
@@ -13,19 +13,6 @@ layout: default
       <div>
         <div>
           <a href="{{ post.url | relative_url }}" title=#326>{{ post.title | escape }}</a>
-
-          <!--<h2 class="post-list-heading">{{ page.list_title | default: "What I've been up to recently:" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-      </li>
-      {%- endfor -%}
-    </ul>-->
         </div>
         <div>
           <p class="post-meta">
@@ -40,6 +27,4 @@ layout: default
     {%- endfor -%}
   </ul>
   {%- endif -%}
-
-
 </div>

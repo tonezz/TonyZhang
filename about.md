@@ -3,7 +3,7 @@ layout: about
 permalink: /about/
 ---
 
-![](../images/editedportrait-1.jpg)
+![](../images/birthday.jpg)
 
 I'm Tony.
 

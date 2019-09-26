@@ -2,31 +2,37 @@
 layout: photo_layout
 permalink: /photos/
 images:
-  - image_path: /images/photos/brandenburg_.jpg
-    title: brandenburg
-  - image_path: /images/photos/anglicka_.jpg
-    title: anglicka
-  - image_path: /images/photos/palmenhaus_.jpg
-    title: palmenhaus
-  - image_path: /images/photos/palmenhaus2_.jpg
-    title: palmenhaus2
-  - image_path: /images/photos/schonbrunn_.jpg
-    title: schonbrunn
-  - image_path: /images/photos/portJefferson.jpg
-    title: portJefferson
-  - image_path: /images/photos/bridgeport_.jpg
-    title: bridgeport
+- image_path: /images/photos-page/brandenburg.jpg
+  camera: Canon EOS M
+  date: 2019-08-10
+
+- image_path: /images/photos-page/anglicka.jpg
+  camera: Canon EOS M
+  date: 2019-08-07
+
+- image_path: /images/photos-page/anglicka2.jpg
+  camera: Canon EOS M
+  date: 2019-08-07
+
+- image_path: /images/photos-page/palmenhaus.jpg
+  camera: Canon EOS M
+  date: 2019-08-07
+
+- image_path: /images/photos-page/palmenhaus2.jpg
+  camera: Canon EOS M
+  date: 2019-08-06
+
+- image_path: /images/photos-page/schonbrunn.jpg
+  camera: Canon EOS M
+  date: 2019-08-06
+
+- image_path: /images/photos-page/portJefferson.jpg
+  camera: Canon 5D
+  date: 2019-08-07
+
+- image_path: /images/photos-page/bridgeport.jpg
+  camera: Canon 5D
+  date: 2019-06-16
 
 
 ---
-<ul class="photo-gallery" style="list-style: none;">
-  {% for image in page.images %}
-    <section>
-      <picture style="width: 1269px; height: auto;">
-        <img src="{{ image.image_path }}" alt="{{ image.title}}"/>
-      </picture>
-    </section>
-    
-    <div style="height:169px;"></div>
-  {% endfor %}
-</ul>
