@@ -3,7 +3,10 @@
 // Define defaults for each variable.
 
 //$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
-$base-font-family: Arial, "Helvetica Neue", Helvetica, sans-serif !default;
+$base-font-family: Open Sans, Helvetica, "Helvetica Neue", Arial, sans-serif !default;
+$base-header-font-family: Nunito, Roboto, Helvetica, "Helvetica Neue", Arial, sans-serif !default;
+//$base-font-family: Roboto, sans-serif !default;
+//$base-font-family: Trebuchet MS;
 $base-font-size:   16px !default;
 $base-font-weight: 350 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
@@ -11,10 +14,10 @@ $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
 
-//$text-color:       #111 !default;
-$text-color:       #000000 !default;
-//$background-color: #ffffff !default;
-//$background: linear-gradient(to bottom right, #ffffff, #dfe9f3);
+$text-color:       #333   !default;
+//$text-color:       #000000 !default;
+//$background-color: rgb(255, 255, 255) !default;
+$background: #fff;
 //$brand-color: #2A5DB0    !default;
 $brand-color: #000000   !default;
 

@@ -29,10 +29,10 @@
 .site-nav {
   float: center;
   //color: $brand-color;
-  background-color: white;
+  background-color: $background;
   line-height: $base-line-height * $base-font-size * 2.25;
   &:visited {
-    color: darken($brand-color, 15%);
+    color: $text-color;
   }
   .nav-trigger {
       color: $brand-color;
@@ -45,7 +45,7 @@
   }
 
   .page-link {
-    color: black;
+    color: $text-color;
     line-height: $base-line-height;
     text-decoration: none;
     &:visited {
@@ -230,8 +230,10 @@
 }
 
 .post-list-heading {
+  font-family: $base-header-font-family;
+  font-size: 20px;
   font-weight: bold;
-  @include relative-font-size(1);
+  //@include relative-font-size(1);
 }
 
 .post-list {
@@ -250,7 +252,7 @@
 .post-link {
   //display: block;
   //color: $brand-color;
-  color: black;
+  color: $text-color;
   @include relative-font-size(1);
   text-decoration: none
 }
