@@ -11,34 +11,35 @@
     <div>
       <ul class="photo-gallery" style="list-style: none;">
         {% for image in page.images %}
-        <section style="height: 1000px">
+        <section style="height: auto">
           <picture>
             <img src="{{ image.image_path }}" alt="{{ image.title}}" />
           </picture>
         </section>
-<!--
-        <div class="writing nu" style="padding-left: 40%; padding-right: 30%;">
-          <div>
-
+        <div class="wrapper" style="padding-top: 5px">
+          <div class="writing nu">
             <div>
-              <p class="post-meta">
-                <time class="dt-published" datetime="{{ iamge.date | date_to_xmlschema }}" itemprop="datePublished">
-                  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-                  {{ image.date | date: date_format }}
-                </time>
-              </p>
-            </div>
 
-            <div>
-              <h4 style="  font-weight: bold;">{{ image.camera }}</h4>
-            </div>
+              <div>
+                <p class="post-meta">
+                  <time class="dt-published" datetime="{{ iamge.date | date_to_xmlschema }}" itemprop="datePublished">
+                    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                    {{ image.date | date: date_format }}
+                  </time><a> in </a><a>{{ image.location }}</a>
+                </p>
+              </div>
 
+              <div>
+                <h4 style="  font-weight: bold;">{{ image.camera }}</h4>
+              </div>
+
+            </div>
           </div>
         </div>
-        -->
 
 
-        <div style="height:169px;"></div>
+
+        <div style="height:69px;"></div>
         {% endfor %}
       </ul>
     </div>
