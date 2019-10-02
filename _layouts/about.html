@@ -10,21 +10,24 @@ layout: default
   {%- include about-header.html -%}
 
   <div class="post-content">
-      <div style="padding-bottom: 69px">
-          <picture>
-            <img src="../images/birthday.jpg" alt="{{ image.title}}" />
-          </picture>
+    <center>
+      <div style="padding-bottom: 50px">
+        <picture>
+          <img src="../images/birthday_.jpg" alt="{{ image.title}}" />
+        </picture>
+      </div>
+      {{ content }}
+
+
+      <!--<main href="mailto:{{ site.author.email }}"><span class="username">{{ site.author.email-text }}</span></main>-->
+
+      <div style="padding-top:0px;">
+        <div style="width: 255px; height: 58px" id="vegankit-embed">
+          <script>window.vegankit_activist_username = "tonezz";</script>
+          <script src="https://cdn.everything.io/vegankit/embed/embed.js"></script>
         </div>
-    {{ content }}
-
-    <!--<main href="mailto:{{ site.author.email }}"><span class="username">{{ site.author.email-text }}</span></main>-->
-
-    <div style="padding-top:10px;">
-    <div style="width: 255px; height: 58px" id="vegankit-embed">
-      <script>window.vegankit_activist_username = "tonezz";</script>
-      <script src="https://cdn.everything.io/vegankit/embed/embed.js"></script>
-    </div>
-  </div>
+      </div>
+    </center>
   </div>
 
 
