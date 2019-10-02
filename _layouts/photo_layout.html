@@ -25,12 +25,12 @@
                   <time class="dt-published" datetime="{{ iamge.date | date_to_xmlschema }}" itemprop="datePublished">
                     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                     {{ image.date | date: date_format }}
-                  </time><a> in </a><a>{{ image.location }}</a>
+                  </time><p> In {{ image.location }}</p>
                 </p>
               </div>
 
               <div>
-                <h4 style="  font-weight: bold;">{{ image.camera }}</h4>
+                <p style="  font-weight: bold;">{{ image.camera }}</p>
               </div>
 
             </div>
