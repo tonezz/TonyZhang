@@ -19,7 +19,7 @@ I vacationed in Colorado and Long Island, NY for the first time as well as Europ
 
 ### Reading
 
-Der Klang der Familie by Felix Denk and Sven von Thülen continued to satisfy my curiosity about the culture surrounding techno music after a "supplemental" visit to Berlin. It was great to read about the origins of the DIY underground spirit and be validated for having almost identical feelings that the generation before had from discovering these experiences on my own. 
+Der Klang der Familie by Felix Denk and Sven von Thülen continued to satisfy my curiosity about the culture surrounding techno music after a "supplemental" visit to Berlin. It was great to read about the origins of the DIY underground spirit and be validated for having almost identical feelings that the generation before had to discovering these experiences on my own. 
 
 
 ### Tunes
