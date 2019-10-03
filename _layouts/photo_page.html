@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+{%- include head.html -%}
+
+<article class="post">
+  {%- include photos-header.html -%}
+</article>
+
+<body>
+  <main class="page-content" aria-label="Content">
+    <div>
+      <ul class="photo-gallery" style="list-style: none;">
+        {% for image in page.images %}
+        <section style="height: auto">
+          <picture>
+            <img src="{{ image.image_path }}" alt="{{ image.title}}" />
+          </picture>
+        </section>
+        <div class="wrapper" style="padding-top: 69px; scroll-padding-bottom: 169px;">
+          <div class="writing nu">
+            <div>
+              <div>
+                  <p style="  font-weight: bold;">{{ image.location }}</p>
+                  <time class="dt-published" datetime="{{ iamge.date | date_to_xmlschema }}" itemprop="datePublished">
+                    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                    {{ image.date | date: date_format }}
+                  </time>
+              </div>
+              <div>
+                <p style="  font-weight: bold;">{{ image.camera }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div style="height:169px;"></div>
+        {% endfor %}
+      </ul>
+    </div>
+  </main>
+
+</body>
+
+</html>

@@ -3,7 +3,7 @@ layout: post
 title:  "Hello again"
 date:   2019-10-01
 ---
-After a year and plus long hiatus, back with some updates. Notably the photos page.
+After a year and plus long hiatus, back with some updates, e.g. the photos page.
 
 
 ### Life
