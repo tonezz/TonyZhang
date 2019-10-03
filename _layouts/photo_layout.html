@@ -2,26 +2,34 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 {%- include head.html -%}
 
-<article class="post">
-  {%- include photos-header.html -%}
-</article>
+<body>
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+
+      <article class="post">
+        {%- include photos-header.html -%}
+      </article>
+    </div>
+  </main>
+
+</body>
+
 
 <body>
   <main class="page-content" aria-label="Content">
-    <div>
-      <ul class="photo-gallery" style="list-style: none; padding-top: 69px;">
-        {% for image in page.images %}
-        <section style="height: auto">
-          <a href="{{ image.photo_page_link }}">
-            <picture>
-              <img src="{{ image.image_path }}" alt="{{ image.title}}" />
-            </picture>
-          </a>
-        </section>
-        <div style="height:666px;"></div>
-        {% endfor %}
-      </ul>
-    </div>
+    <ul class="photo-gallery" style="list-style: none; ">
+      {% for image in page.images %}
+      <section style="height: auto;">
+        <a href="{{ image.photo_page_link }}">
+          <picture style="padding-top: 69px;">
+            <img src="{{ image.image_path }}" alt="{{ image.title}}" />
+          </picture>
+        </a>
+      </section>
+      <div style="height:666px;"></div>
+      {% endfor %}
+    </ul>
   </main>
 
 </body>
