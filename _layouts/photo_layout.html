@@ -19,20 +19,16 @@
         <div class="wrapper" style="padding-top: 5px">
           <div class="writing nu">
             <div>
-
               <div>
-                <p class="post-meta">
+                  <p style="  font-weight: bold;">{{ image.location }}</p>
                   <time class="dt-published" datetime="{{ iamge.date | date_to_xmlschema }}" itemprop="datePublished">
                     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                     {{ image.date | date: date_format }}
-                  </time><p> In {{ image.location }}</p>
-                </p>
+                  </time>
               </div>
-
               <div>
                 <p style="  font-weight: bold;">{{ image.camera }}</p>
               </div>
-
             </div>
           </div>
         </div>
