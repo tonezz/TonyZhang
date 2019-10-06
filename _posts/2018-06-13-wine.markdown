@@ -10,19 +10,19 @@ My first Python script uses the BeautifulSoup package to extract HTML data from 
 The first revision collects the data from all red wines available on the online store that contains all the requested HTML data elements:
 
 
-Wine name
+* Wine name
 
-Price
+* Price
 
-Country/state
+* Country/state
 
-Region
+* Region
 
-Product type (red/white)
+* Product type (red/white)
 
-Varietal type
+* Varietal type
 
-Description
+* Description
 
 
 Some elements of the data request are hardcoded in the first revision of the script, e.g. type of wine (red/white) and price of wine, that I have plans to make user-configurable from the command line. There are also two intermittent issues; timing out when requesting URLs and running into MemoryError when collecting on >50 pages or more.

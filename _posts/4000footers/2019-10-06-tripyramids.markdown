@@ -7,7 +7,7 @@ rating: 7/10
 
 Takeaways:
 
-1. Following a group that is ahead does not mean they are on the marked trail. And also, do have GPS.
+1. Following a group does not mean they are on the marked trail. Also, do have GPS.
 
 2. I miss having a phone camera with higher pixel count.
 
