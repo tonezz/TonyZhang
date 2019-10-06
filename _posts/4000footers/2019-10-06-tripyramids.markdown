@@ -9,9 +9,9 @@ Takeaways:
 
 1. Following a group does not mean they are on the marked trail. Also, do have GPS.
 
-2. I miss having a phone camera with higher pixel count.
+2. I miss having a phone camera that shoots higher resolution.
 
-3. Avalanche slides and trail running are pretty fun.
+3. Avalanche slides and trail running are pretty fun. Not at the same time though.
 
 North Tripyramid - 14/48
 
