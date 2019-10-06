@@ -33,6 +33,6 @@ On the North Slide looking up towards the summit with the sun in your face.
 
 Nice view on the South Slide looking southwest towards the Sandwich Range.
 
-
+Shot on OnePlus 6.
 
 <iframe width="100%" height="500px" src="https://caltopo.com/m/DJ8T"></iframe>
