@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Tripyramids Loop"
-date:   2019-10-06
-rating: 7/10
+type: 4000footer
+date:   2019-10-05
 ---
 
 Takeaways:
