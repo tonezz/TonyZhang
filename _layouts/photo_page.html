@@ -20,7 +20,7 @@
     <ul class="photo-gallery" style="list-style: none;">
       {% for image in page.images %}
       <section style="height: auto">
-        <a href="{{ image.photo_page_link }}">
+        <a>
           <picture style="padding-top: 69px;">
             <img src="{{ image.image_path }}" alt="{{ image.title}}" />
           </picture>
