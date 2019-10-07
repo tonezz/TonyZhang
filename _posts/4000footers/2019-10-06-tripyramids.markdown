@@ -2,7 +2,8 @@
 layout: post
 title:  "Tripyramids Loop"
 type: 4000footer
-date:   2019-10-05
+date:   2019-10-06
+permalink: /4000footers/tripyramids/
 ---
 
 Takeaways:

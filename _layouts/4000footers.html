@@ -3,31 +3,30 @@ layout: default
 ---
 <div class="home">
   {%- include 4000footers-header.html -%}
-  <h2 class="post-list-heading">{{ page.list_title | default: "List of New Hampshire 4000 footers and their date hiked." }}</h2>
+  <h2 class="post-list-heading">{{ page.list_title | default: "New Hampshire 4000 Footers" }}</h2>
 
-  {%- if site.posts.size > 0 -%}
-  <ul class="post-list">
-    {%- for post in site.posts -%}
-    {%- if post.type == "4000footer" -%}
-    <div class="writing nu">
-      <div>
-        <div>
-          <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </div>
-        <div>
-          <p class="post-meta">
-            <time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
-              {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-              {{ post.date | date: date_format }}
-            </time>
-          </p>
-        </div>
-      </div>
-    </div>
-    {%- endif -%}
-    {%- endfor -%}
-  </ul>
-  {%- endif -%}
-  <iframe src="https://www.google.com/maps/d/u/0/embed?mid=14ZnT84Qpf-01O2DL_F3chI05M0c" width="640"
-    height="480"></iframe>
+  <div class="nu">
+    <table style="width:100%; border:1px solid #666666;">
+      <tr>
+        <th style="text-align: center">#</th>
+        <th>Mountain</th>
+        <th>Elevation in feet</th>
+        <th style="text-align: center">Date hiked / report</th>
+      </tr>
+      {% assign sorted = site.data.4000footers | sort: 'number' %}
+      {% for mt in sorted %}
+      <tr>
+        <td style="text-align: center">{{ mt.number }}</td>
+        <td>{{ mt.mountain }}</td>
+        <td>{{ mt.elevation }}</td>
+        <td style="text-align: center"><a class="nu"
+            href="{{ mt.url }}">{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}{{ mt.date| date: date_format }}
+        </td></a>
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+
+  <iframe src="https://www.google.com/maps/d/u/0/embed?mid=14ZnT84Qpf-01O2DL_F3chI05M0c" width="100%"
+    height="500px"></iframe>
 </div>

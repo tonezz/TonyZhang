@@ -135,6 +135,7 @@ a {
   }
 }
 
+
 /**
  * Photo section
  */
@@ -254,24 +255,22 @@ pre {
 table {
   margin-bottom: $spacing-unit;
   width: 100%;
+  border: 1px;
+  border-top-color: $text-color;
   text-align: $table-text-align;
-  color: lighten($text-color, 18%);
-  border-collapse: collapse;
-  border: 1px solid $grey-color-light;
+  font-size: 14px;
   tr {
-    &:nth-child(even) {
-      background-color: lighten($grey-color-light, 6%);
-    }
+    border: $text-color;
+    border-bottom-color: $text-color;
   }
   th, td {
-    padding: ($spacing-unit / 3) ($spacing-unit / 2);
+    padding: 2px 5px;
   }
   th {
-    background-color: lighten($grey-color-light, 3%);
-    border: 1px solid darken($grey-color-light, 4%);
-    border-bottom-color: darken($grey-color-light, 12%);
+    background-color: #666666;
+    color: $background;
   }
   td {
-    border: 1px solid $grey-color-light;
+    border: 1px solid #666666;
   }
 }
