@@ -10,7 +10,7 @@ Takeaways:
 
 1. Following a group does not mean they are on the marked trail. Also, do have GPS.
 
-2. I miss having a phone camera that shoots higher resolution.
+2. I miss having a phone camera that shoots higher resolution and has panorama mode.
 
 3. Avalanche slides and trail running are pretty fun. Not at the same time though.
 
