@@ -13,8 +13,7 @@ layout: default
         <th>Elevation in feet</th>
         <th style="text-align: center">Date hiked / reports*</th>
       </tr>
-      {% assign sorted = site.data.4000footers | sort: 'number' %}
-      {% for mt in sorted %}
+      {% for mt in site.data.4000footers %}
       <tr>
         <td style="text-align: center">{{ mt.number }}</td>
         <td>{{ mt.mountain }}</td>
