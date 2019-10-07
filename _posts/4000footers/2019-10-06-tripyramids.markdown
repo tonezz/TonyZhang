@@ -33,4 +33,4 @@ Middle Tripyramid - 15 / 48
 
 Shot on OnePlus 6.
 
-<iframe width="100%" height="500px" src="https://caltopo.com/m/DJ8T"></iframe>
+<iframe width="100%" height="420px" src="https://caltopo.com/m/DJ8T"></iframe>
