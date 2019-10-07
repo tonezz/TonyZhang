@@ -14,9 +14,9 @@ Takeaways:
 
 3. Avalanche slides and trail running are pretty fun. Not at the same time though.
 
-North Tripyramid - 14/48
+North Tripyramid - 14 / 48
 
-Middle Tripyramid - 15/48
+Middle Tripyramid - 15 / 48
 
 ![](../../../images/northSlide.jpg)
 *On the North Slide looking north towards Mt. Carrigain.*
