@@ -9,7 +9,6 @@ layout: default
   {%- if site.posts.size > 0 -%}
   <ul class="post-list">
     {%- for post in site.posts -%}
-    {%- if post.type != "4000footer" -%}
     <div class="writing nu">
       <div>
         <div>
@@ -25,7 +24,6 @@ layout: default
         </div>
       </div>
     </div>
-    {%- endif -%}
     {%- endfor -%}
   </ul>
   {%- endif -%}

@@ -4,14 +4,14 @@ layout: default
 <div class="home">
   {%- include 4000footers-header.html -%}
   <h2 class="post-list-heading">{{ page.list_title | default: "New Hampshire 4000 Footers" }}</h2>
-
+<p>*Some report links are in progress.</p>
   <div class="nu">
     <table style="width:100%; border:1px solid #666666;">
       <tr>
         <th style="text-align: center">#</th>
         <th>Mountain</th>
         <th>Elevation in feet</th>
-        <th style="text-align: center">Date hiked / report</th>
+        <th style="text-align: center">Date hiked / reports*</th>
       </tr>
       {% assign sorted = site.data.4000footers | sort: 'number' %}
       {% for mt in sorted %}

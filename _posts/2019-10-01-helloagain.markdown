@@ -15,7 +15,7 @@ I vacationed in Colorado and Long Island, NY for the first time as well as Europ
 
 
 ![](../../../images/berlin.jpg)
-
+*Denkmal für die ermordeten Juden Europas.*
 
 ### Reading
 

@@ -19,20 +19,17 @@ North Tripyramid - 14/48
 Middle Tripyramid - 15/48
 
 ![](../../../images/northSlide.jpg)
-
-On the North Slide looking north towards Mt. Carrigain.
+*On the North Slide looking north towards Mt. Carrigain.*
 
 
 
 ![](../../../images/northSlide2.jpg)
-
-On the North Slide looking up towards the summit with the sun in your face.
+*On the North Slide looking up towards the summit with the sun in your face.*
 
 
 
 ![](../../../images/southSlide.jpg)
-
-Nice view on the South Slide looking southwest towards the Sandwich Range.
+*Nice view on the South Slide looking southwest towards the Sandwich Range.*
 
 Shot on OnePlus 6.
 
