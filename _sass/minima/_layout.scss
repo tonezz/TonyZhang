@@ -263,14 +263,13 @@
  * Posts
  */
 .post-header {
-  margin-bottom: $spacing-unit;
+  /*margin-bottom: $spacing-unit;*/
 }
 
 .post-title {
-  @include relative-font-size(1.69);
+  font-family: $base-header-font-family;
+  font-size: 20px;
   font-weight: bold;
-  letter-spacing: -1px;
-  line-height: 1;
 
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
@@ -281,6 +280,7 @@
   margin-bottom: $spacing-unit;
 
   h2 {
+    font-family: $base-header-font-family;
     @include relative-font-size(2);
 
     @include media-query($on-laptop) {
@@ -289,7 +289,8 @@
   }
 
   h3 {
-    @include relative-font-size(1.42);
+    font-family: $base-header-font-family;
+    font-size: 20px;
     font-weight: bold;
     @include media-query($on-laptop) {
       @include relative-font-size(1.375);
@@ -297,6 +298,7 @@
   }
 
   h4 {
+    font-family: $base-header-font-family;
     @include relative-font-size(1);
 
     @include media-query($on-laptop) {
